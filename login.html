@@ -3,20 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration Form</title>
+  <title>Login Page</title>
 </head>
 <body>
-  <h2>Registration Form</h2>
+  <h2>Login</h2>
   <form method="POST" action="login.php">
     <label for="matric">Matric No.:</label>
     <input type="text" id="matric" name="matric" required><br><br>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required><br><br>
-    <label for="role">Role:</label>
-    <input type="text" id="role" name="role" required><br><br>
-    <button type="submit">Register</button>
+    <button type="submit">Login</button>
   </form>
+  <?php // Include the login error message (optional) ?>
 </body>
 </html>
