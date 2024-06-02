@@ -40,6 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
   <h2>Login</h2>
-  <?php include 'index.php'; ?>
+  <?php include 'login.php'; ?>
 </body>
 </html>
